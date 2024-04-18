@@ -1,0 +1,15 @@
+/Users/dannymorton/Projects/testHw/testHw/bin/Debug/net7.0/testHw
+/Users/dannymorton/Projects/testHw/testHw/bin/Debug/net7.0/testHw.deps.json
+/Users/dannymorton/Projects/testHw/testHw/bin/Debug/net7.0/testHw.runtimeconfig.json
+/Users/dannymorton/Projects/testHw/testHw/bin/Debug/net7.0/testHw.dll
+/Users/dannymorton/Projects/testHw/testHw/bin/Debug/net7.0/testHw.pdb
+/Users/dannymorton/Projects/testHw/testHw/obj/Debug/net7.0/testHw.csproj.AssemblyReference.cache
+/Users/dannymorton/Projects/testHw/testHw/obj/Debug/net7.0/testHw.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dannymorton/Projects/testHw/testHw/obj/Debug/net7.0/testHw.AssemblyInfoInputs.cache
+/Users/dannymorton/Projects/testHw/testHw/obj/Debug/net7.0/testHw.AssemblyInfo.cs
+/Users/dannymorton/Projects/testHw/testHw/obj/Debug/net7.0/testHw.csproj.CoreCompileInputs.cache
+/Users/dannymorton/Projects/testHw/testHw/obj/Debug/net7.0/testHw.dll
+/Users/dannymorton/Projects/testHw/testHw/obj/Debug/net7.0/refint/testHw.dll
+/Users/dannymorton/Projects/testHw/testHw/obj/Debug/net7.0/testHw.pdb
+/Users/dannymorton/Projects/testHw/testHw/obj/Debug/net7.0/testHw.genruntimeconfig.cache
+/Users/dannymorton/Projects/testHw/testHw/obj/Debug/net7.0/ref/testHw.dll

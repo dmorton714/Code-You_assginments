@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4b234vefUZyGqXRZlkaUcirO4cOhNSyDknH1zofsKoX73Y/5zhzkZzyXmOspHv+jPtWr89aXwqK+F27QODA8yQ==",
+  "success": true,
+  "projectFilePath": "/Users/dannymorton/Documents/code/Code-You_assginments/c#/testHw.csproj",
+  "expectedPackageFiles": [
+    "/Users/dannymorton/.nuget/packages/microsoft.netcore.app.ref/7.0.17/microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "/Users/dannymorton/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.17/microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
+    "/Users/dannymorton/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.17/microsoft.netcore.app.host.osx-arm64.7.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
