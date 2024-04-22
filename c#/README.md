@@ -29,11 +29,11 @@ We will use the variable `A` and the variable `B`
 - `B` will be equal to 60
 - Run the program and see what happens
 
-Notice you have errors with the name A and B doesnt exist. To correct this we
+Notice you have errors with the name A and B does not exist. To correct this we
 will have to assign them a data type.
 - Before the Variable we will have to give it a data type
-- Lets give the variable `A` the data type of `double`
-- Lets make `B` a `int`
+- Let's give the variable `A` the data type of `double`
+- Let's make `B` a `int`
 - Run the program and see what happens
 
 The program runs! However nothing happens. The key things to take away is Variables
@@ -123,17 +123,17 @@ print statement.
 
 - Now we get a console message that tells us B is greater than A!
 
-Lets now comment out our 2 `if` statements. Highlight both if statement and then
+Lets now comment out our 2 `if` statements. Highlight both if statements and then
 hit control & ? (on mac command & ?). This will add `//` to the beginning of the
 line making it so the code no longer runs.
-- We are going to combine both if statement adding a else clause to the code.
+- We are going to combine both if statements adding an else clause to the code.
 - Take the first if statement and copy it below.
 - at the end of it on a new line add `else`
 - add a new set of curly braces
 - Then put `Console.WriteLine("B is greater than A");` in between them
 
 When you run the code now it should just print "B is greater than A"
-- This is cleaner than having 2 seperate sets of logic working to solve the same
+- This is cleaner than having 2 separate sets of logic working to solve the same
 problem.
 - We need to add one more condition to this code.
 - add a `else if` condition between the `if` and `else`
