@@ -29,30 +29,27 @@ class TestUserVariables(unittest.TestCase):
     
     @classmethod
     def conditionals(cls, A, B):
-        # Capture stdout
-        sys.stdout = StringIO()
-        
         # User code
-        exec("""if A > B:
-    print("A is greater than B")
-elif A == B:
-    print("A is equal to B")
-else:
-    print("B is greater than A")""")
-        
-        # Get output
-        result = sys.stdout.getvalue().strip()
-        
-        # Reset stdout
-        sys.stdout = sys.__stdout__
-        
-        # Check if the result matches the expected output
-        expected_result = "B is greater than A"  # Expected output for the given values of A and B
-        if result == expected_result:
-            print("Conditional test passed!")
+        if A > B:
+            return "A is greater than B"
+        elif A == B:
+            return "A is equal to B"
         else:
-            print("Conditional test failed! Expected:", expected_result, "but got:", result)
+            return "B is greater than A"
 
+    @classmethod
+    def test_conditionals(cls, A, B):
+        # Expected output
+        expected_output = "B is greater than A"
+
+        # Call the conditional method and get the result
+        result = cls.conditionals(A, B)
+
+        # Check if the result matches the expected output
+        if result != expected_output:
+            raise Exception(f"Error: Expected '{expected_output}' but got '{result}'.")
+
+        print("Conditionals test passed!")
 
 if __name__ == '__main__':
     A = 40
