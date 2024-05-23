@@ -1,4 +1,5 @@
 import unittest
+from unittest.mock import patch
 import sys
 from io import StringIO
 
@@ -51,6 +52,7 @@ class TestUserVariables(unittest.TestCase):
 
         print("Conditionals test passed!")
 
+
 if __name__ == '__main__':
     A = 40
     B = 60.0
@@ -66,10 +68,10 @@ if __name__ == '__main__':
     
     print("Congratulations! Your code passed the tests!")
 
-# _______________________________________________________________________________________________________________________________
-
-
+# ________________________________________________________________________
 # Week 2 Assignments
+# ________________________________________________________________________
+
 
 class TestWeek2(unittest.TestCase):
     @classmethod
@@ -100,6 +102,7 @@ class TestWeek2(unittest.TestCase):
         print("List creation test passed!")
 
 
+
 if __name__ == '__main__':
     A = float(1)
     B = int(2)
@@ -113,3 +116,8 @@ if __name__ == '__main__':
     
     # Run list creation test
     TestWeek2.test_list_creation(my_list)
+
+
+# ________________________________________________________________________
+# Week 3 Assignments
+# ________________________________________________________________________
