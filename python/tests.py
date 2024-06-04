@@ -1,7 +1,8 @@
 import unittest
-from unittest.mock import patch
-import sys
-from io import StringIO
+# from unittest.mock import patch
+# import sys
+# from io import StringIO
+
 
 class TestUserVariables(unittest.TestCase):
     @classmethod
